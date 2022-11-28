@@ -1,3 +1,3 @@
 # dino-runner
-Всеми известная игра [](ru.wikipedia.org/wiki/Dinosaur_Game)
+Всеми известная [Dinosaur Game](ru.wikipedia.org/wiki/Dinosaur_Game) на платформе Arduino с использованием библиотеки LiquidCrystal_I2C.
 
