@@ -1,8 +1,6 @@
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
 
-void (* reset) (void) = 0;
-
 const int PIN_BUTTON = 50;
 const int PIN_LED_RED = 8;
 const int PIN_LED_GREEN = 9;
@@ -68,6 +66,8 @@ void setup() {
     lcd.clear();
   }
 }
+
+void (* reset) (void) = 0;
 
 void loop() {
   if (jump_stage != -1) {
